@@ -1182,4 +1182,5 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     ims \
     WfdCommon \
-    WfdService
+    WfdService \
+    vendor.qti.gnss@3.0-service
