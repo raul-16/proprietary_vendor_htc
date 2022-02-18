@@ -116,13 +116,11 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/usb_typec_otp_ad.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/usb_typec_otp_ad.img \
     vendor/htc/pme/proprietary/etc/permissions/com.htc.sensor.hallsensor.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.htc.sensor.hallsensor.xml \
     vendor/htc/pme/proprietary/etc/permissions/com.htc.sensor.sensorhub.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.htc.sensor.sensorhub.xml \
-    vendor/htc/pme/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.simalliance.openmobileapi.xml \
     vendor/htc/pme/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qcrilhook.xml \
     vendor/htc/pme/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml \
     vendor/htc/pme/proprietary/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_libpermissions.xml \
     vendor/htc/pme/proprietary/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/htc/pme/proprietary/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/telephonyservice.xml \
-    vendor/htc/pme/proprietary/framework/org.simalliance.openmobileapi.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/org.simalliance.openmobileapi.jar \
     vendor/htc/pme/proprietary/framework/qcrilhook.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/qcrilhook.jar \
     vendor/htc/pme/proprietary/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/QtiTelephonyServicelibrary.jar \
     vendor/htc/pme/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
@@ -1137,7 +1135,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     CneApp \
     IWlanService \
-    SmartcardService \
     qcrilmsgtunnel \
     ims \
     vendor.qti.gnss@3.0-service

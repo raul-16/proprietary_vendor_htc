@@ -134,17 +134,6 @@ android_app_import {
 	privileged: true,
 }
 
-android_app_import {
-	name: "SmartcardService",
-	owner: "htc",
-	apk: "proprietary/priv-app/SmartcardService/SmartcardService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
 prebuilt_etc_xml {
 	name: "vendor.qti.gnss@3.0-service",
 	owner: "htc",
